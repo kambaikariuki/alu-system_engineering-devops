@@ -7,5 +7,5 @@ echo "server {
 	location /redirect_me {
 		return 301 https://www.youtube.com/watch?v=-VGIt10m9VQ;
 	}
-	}"
+	}" >> /etc/nginx/sites-available/default
 sudo service nginx restart

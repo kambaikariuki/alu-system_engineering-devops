@@ -24,7 +24,5 @@ echo "server {
 		error_page 404 /404.html;
 }" > /etc/nginx/sites-available/default
 
-sudo chown -R root:root /var/www/html
-sudo chown -R root:root /etc/nginx/sites-available/default
 sudo service nginx restart
 sudo service nginx reload

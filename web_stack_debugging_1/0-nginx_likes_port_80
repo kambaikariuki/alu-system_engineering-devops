@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 #get nginx running
+apt-get install curl -y
 apt-get install nginx -y
 service nginx start
-curl 0:80
